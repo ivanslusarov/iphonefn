@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.44a1c5e7.css",
+    "main.js": "/static/js/main.079298b4.js",
+    "static/media/hero.jpg": "/static/media/hero.1c44fbecfa9e96ce2ddd.jpg",
+    "static/media/iphone-g8185be3f2_1920.jpg": "/static/media/iphone-g8185be3f2_1920.dd98892fa1e1e325c400.jpg",
+    "static/media/home-office-g4a08adc61_1920.jpg": "/static/media/home-office-g4a08adc61_1920.ee3173c377fda016cdda.jpg",
+    "static/media/iphone-563069_960_720.jpg": "/static/media/iphone-563069_960_720.544ef44bcfb92b16bbf5.jpg",
+    "static/media/istockphoto-1080261986-170667a.jpg": "/static/media/istockphoto-1080261986-170667a.4b1d05bde912d8b435f6.jpg",
+    "static/media/20210617_60caca8d53b2b.jpg": "/static/media/20210617_60caca8d53b2b.84cf67f5922fe22860a9.jpg",
+    "static/media/apple-3595603__340.webp": "/static/media/apple-3595603__340.39fae836587750d7e38c.webp",
+    "static/media/ipad.webp": "/static/media/ipad.72ae66b509efef354f10.webp",
+    "static/media/technology-2608742__340.jpg": "/static/media/technology-2608742__340.cd91b40282bf25ab13a6.jpg",
+    "static/media/office-581131__340.webp": "/static/media/office-581131__340.fc7dd6332ea5a3f70a33.webp",
+    "static/media/apple-1853259__340.webp": "/static/media/apple-1853259__340.9c6b2085c50356f0bdd0.webp",
+    "static/media/apple-1867461__340.webp": "/static/media/apple-1867461__340.8ce2b7c809ee901fd50e.webp",
+    "index.html": "/index.html",
+    "main.44a1c5e7.css.map": "/static/css/main.44a1c5e7.css.map",
+    "main.079298b4.js.map": "/static/js/main.079298b4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.44a1c5e7.css",
+    "static/js/main.079298b4.js"
+  ]
+}
