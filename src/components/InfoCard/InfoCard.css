@@ -1,0 +1,244 @@
+.infoPage-product{
+    padding: 20px ;
+    background-color: #001529;
+    position: relative;
+}
+.infoPage-product-name{
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #fff;
+}
+.infoPage-img{
+    width: 90vw;
+    border-radius: 20px;
+}
+
+.infoPage-product-modalName{
+    margin: 20px 0;
+    padding: 0;
+    text-align: center;
+    font-weight: bold;
+    color: #fff;
+}
+.infoPage-fulDescription{
+    color: #fff;
+}
+.characteries{
+    margin: 0;
+    padding: 0;
+}
+.characteries-item{
+    display: flex;
+    justify-content: space-between;
+}
+.characteries-item p:nth-child(2){
+    width: 200px;
+}
+.characteries-item p{
+    color: #fff;
+}
+.characteries-name{
+    text-align: center;
+    font-weight: bold;
+    color: #fff;
+}
+.infoBuyBtn{
+    margin-top: 30px;
+}
+.toast-info{
+    background-color: #1890ff;
+    border-radius: 6px;
+    padding: 10px 20px;
+    position:absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom:60px;
+}
+    .price-block {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border: 1px solid #fff;
+        border-radius: 10px;
+        width: 60vw;
+        position: relative;
+        transform: translateX(-50%);
+        left: 50%;
+        margin-top: 20px;
+    }
+    
+    .notPrice {
+        font-size: 30px;
+        color: #666;
+        position: relative;
+        margin: 0 ;
+        margin: 10px 0;
+    }
+    
+    .notPrice::after {
+        content: '';
+        position: absolute;
+        top: 50%;
+        right: -5%;
+        width: 110%;
+        transform: rotateZ(-5deg);
+        height: 2px;
+        opacity: .7;
+        background-color: #fff;
+    }
+    
+    .discont-price {
+        margin-bottom: 0;
+        font-size: 25px;
+        color: #1890ff;
+    }
+@media screen and (min-width: 800px) {
+    .infoPage-product {
+        padding: 40px;
+    }
+    
+    .infoPage-product-name {
+        margin-bottom: 30px;
+        font-size: 25px;
+    }
+    
+    .infoPage-img {
+        width: 40vw;
+        border-radius: 20px;
+    }
+    .infoPage-content{
+        display: flex;
+        justify-content: space-between;
+    }
+    .infoPage-content-right{
+        width: 46vw;
+    }
+    .infoPage-product-modalName {
+        margin: 0 0 15px 0;
+    }
+    
+    .infoPage-fulDescription {
+        font-size: 15px;    
+    }
+    
+    .characteries {
+        margin: 0;
+        padding: 0;
+    }
+    
+    .characteries-item {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .characteries-item p:nth-child(2) {
+        width: 450px;
+    }
+    .characteries-item p{
+        font-size: 15px;
+    }
+    .characteries-name{
+        font-size: 20px;
+        margin: 20px 0;
+    }
+    
+    .infoBuyBtn {
+        margin-top: 30px;
+        font-size: 16px;
+        padding: 10px 20px;
+    }
+    .toast-info {
+        bottom: 100px;
+    }
+    .price-block {
+        flex-direction: row;
+        align-items: flex-end;
+        justify-content: center;
+        width: 50vw;
+        margin-top: 40px;
+        margin-bottom: 25px;
+    }
+    .notPrice {
+        margin: 0 40px 0 0;
+    }
+    
+    .discont-price {
+        margin-bottom: 0;
+        font-size: 25px;
+        color: #1890ff;
+    }
+}
+
+@media screen and (min-width: 1100px) {
+    .infoPage-product {
+        padding: 50px;
+    }
+    
+    .infoPage-product-name {
+        margin-bottom: 40px;
+        font-size: 35px;
+    }
+    
+    .infoPage-img {
+        width: 30vw;
+    }
+    
+    
+    .infoPage-content-right {
+        width: 60vw;
+    }
+    
+    .infoPage-product-modalName {
+        margin: 0 0 20px 0;
+        font-size: 25px;
+    }
+    
+    .infoPage-fulDescription {
+        font-size: 18px;
+    }
+    
+    .characteries-item {
+        justify-content: space-around;
+    }
+    .characteries-item p:nth-child(1) {
+        width: 5vw;
+    }
+    .characteries-item p:nth-child(2) {
+        width: 40vw;
+    }
+    
+    .characteries-item p {
+        font-size: 18px;
+    }
+    
+    .characteries-name {
+        font-size: 25px;
+        margin: 40px 0;
+    }
+    
+    .infoBuyBtn {
+        margin-top: 30px;
+        font-size: 18px;
+        padding: 15px 30px;
+    }
+    
+    .toast-info {
+        bottom: 120px;
+    }
+    
+    .price-block {
+        width: 45vw;
+        margin-top: 50px;
+        margin-bottom: 30px;
+    }
+    
+    .notPrice {
+        margin: 0 70px 0 0;
+        font-size: 45px;
+    }
+    
+    .discont-price {
+        font-size: 35px;
+    }
+}

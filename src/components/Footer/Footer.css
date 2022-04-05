@@ -1,0 +1,84 @@
+a:hover {
+  color: aqua;
+}
+.footer {
+  background-color: #001529;
+}
+.footer-heading {
+  font-size: 25px;
+  font-weight: bold;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 20px;
+  display: inline-block;
+  color: #fff;
+}
+.footer-production h3,
+.footer-contacts h3 {
+  text-align: center;
+  color: #fff;
+}
+.footer-production ul,
+.footer-contacts ul {
+  transform: translateX(-20px);
+  text-align: center;
+}
+@media screen and (min-width: 800px) {
+  .footer-heading {
+    margin-top: 25px;
+    font-size: 30px;
+  }
+  .footer-block {
+    display: flex;
+    justify-content: space-around;
+  }
+  .production-heading {
+    font-size: 20px;
+  }
+  .footer-Pitem,
+  .contact-list {
+    font-size: 15px;
+  }
+  .footer-Pitem a,
+  .contact-item a {
+    color: #fff;
+  }
+  .footer-Pitem:not(:last-child),
+  .contact-item:not(:last-child) {
+    margin-bottom: 5px;
+  }
+}
+@media screen and (min-width: 1100px) {
+  .footer-heading {
+    margin-top: 50px;
+    margin-bottom: 60px;
+    font-size: 50px;
+  }
+  .production-heading {
+    font-size: 30px;
+    position: absolute;
+    left: 20px;
+    top: -60px;
+  }
+  .footer-Pitem,
+  .contact-list {
+    font-size: 20px;
+  }
+  .footer-Pitem:not(:last-child),
+  .contact-item:not(:last-child) {
+    margin-bottom: 0px;
+    margin-right: 20px;
+  }
+  .footer-Plist,
+  .contact-list {
+    display: flex;
+  }
+  .footer {
+    padding-bottom: 50px;
+  }
+  .footer-contacts,
+  .footer-production {
+    position: relative;
+  }
+}

@@ -1,0 +1,16 @@
+.btn-showMore {
+  background-color: #1890ff;
+  border: 0;
+  border-radius: 5px;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+.btn-showMore:hover {
+  background-color: #227dd3;
+}
+.btn-showMore:active {
+  background-color: #134e85;
+}

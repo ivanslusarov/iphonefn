@@ -1,0 +1,138 @@
+.order-content{
+    background-color: #001529;
+    padding: 30px 20px;
+}
+.input-list{
+    margin: 0 0 30px 0 ;
+    padding: 0;
+}
+.input-list-item{
+    margin-bottom: 15px;
+    text-align: center;
+}
+.input-list-item label{
+    font-size: 16px;
+}
+.input-list-item input{
+    border: 0;
+    border-radius: 5px;
+    display: block;
+    padding: 8px 15px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #1890ff;
+    margin-top: 5px;
+    width: 80%;
+}
+.order-price-block{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    align-items: flex-end;
+    font-size: 25px;
+}
+.pay-btn{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
+    background-color: #1890ff;
+    border: 0;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 15px;
+}
+.pay-btn:hover{
+    background-color: #157bdb;
+}
+.pay-btn:active {
+    background-color: #105da4;
+}
+.order-heading{
+    color: #fff;
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 25px;
+    font-weight: bold;
+}
+@media screen and (min-width: 800px) {
+    .order-content {
+        padding: 40px 30px;
+    }
+    .input-list {
+        margin: 0 0 40px 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    
+    .input-list-item {
+        margin-bottom: 25px;
+        width: 45vw;
+    }
+    .input-list-item label{
+        font-size: 20px;
+    }
+    .input-list-item input {
+        border-radius: 8px;
+        padding: 10px 15px;
+        font-size: 15px;
+    }
+    
+    .order-price-block {
+        justify-content: center;
+        font-size: 30px;
+    }
+    .price-count{
+        margin-left: 20px;
+    }
+    .pay-btn {
+        border-radius: 8px;
+        padding: 10px 20px;
+        font-size: 20px;
+    }
+    .order-heading {
+        font-size: 35px;
+        margin-bottom: 40px;
+    }
+}
+@media screen and (min-width: 1100px) {
+    .order-content {
+        padding: 50px 30px;
+    }
+
+    .input-list {
+        margin: 0 0 40px 0;
+        justify-content: space-around;
+    }
+
+    .input-list-item {
+        margin-bottom: 30px;
+        width: 30vw;
+    }
+
+    .input-list-item label {
+        font-size: 25px;
+    }
+
+    .input-list-item input {
+        border-radius: 8px;
+        padding: 12px 18px;
+        font-size: 20px;
+    }
+
+    .order-price-block {
+        font-size: 35px;
+    }
+
+    .price-count {
+        margin-left: 25px;
+    }
+
+    .pay-btn {
+        border-radius: 8px;
+        padding: 15px 30px;
+        font-size: 25px;
+    }
+}

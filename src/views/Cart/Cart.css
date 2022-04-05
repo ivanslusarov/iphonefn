@@ -1,0 +1,137 @@
+.Busket {
+  background-color: #000;
+}
+.Busket-cart {
+  background-color: #001529;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  border-radius: 7px;
+  width: 80vw;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.Busket-cart-price {
+  text-align: center;
+}
+.Busket-cart-img {
+  width: 100px;
+}
+.Busket-cart-name {
+  margin: 0;
+  color: aliceblue;
+  text-align: center;
+}
+.Buy-Finaly-Btn {
+  background-color: #154e84;
+  border-radius: 7px;
+  border: 0;
+  padding: 5px 10px;
+  cursor: pointer;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-bottom: 20px;
+}
+.Buy-Finaly-Btn:hover {
+  background-color: #206cb4;
+}
+.Buy-Finaly-Btn:active {
+  background-color: #0f3f6b;
+}
+.price-busket {
+  text-align: center;
+  font-size: 15px;
+}
+.price-busket:not(:last-child) {
+  margin-top: 20px;
+}
+.delete-item-btn {
+  background-color: transparent;
+  border: 0;
+  padding: 0;
+  font-size: 25px;
+  position: absolute;
+  top: 0;
+  right: 10px;
+  cursor: pointer;
+}
+.EmptyBusket {
+  text-align: center;
+  color: #fff;
+  margin-bottom: 0;
+  padding: 20vh 0;
+}
+@media screen and (min-width: 800px) {
+  .Busket-cart {
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-top: 20px;
+  }
+  .Busket-cart-img {
+    width: 150px;
+  }
+  .Busket-cart-name {
+    margin: 20px 40px 20px 20px;
+    text-align: left;
+  }
+  .Buy-Finaly-Btn {
+    padding: 10px 20px;
+    margin-bottom: 30px;
+  }
+
+  .price-busket {
+    font-size: 20px;
+  }
+
+  .delete-item-btn {
+    font-size: 30px;
+  }
+  .EmptyBusket {
+    font-size: 30px;
+  }
+  .Busket-cart-price {
+    text-align: left;
+    margin-left: 20px;
+    font-size: 15px;
+  }
+}
+@media screen and (min-width: 1100px) {
+  .Busket-cart {
+    margin-top: 25px;
+  }
+  .Busket-cart-img {
+    width: 200px;
+  }
+  .Busket-cart-name {
+    margin: 20px 40px 20px 40px;
+    font-size: 24px;
+  }
+  .Buy-Finaly-Btn {
+    padding: 15px 30px;
+    margin-bottom: 40px;
+  }
+
+  .price-busket {
+    font-size: 25px;
+  }
+
+  .delete-item-btn {
+    font-size: 40px;
+  }
+
+  .EmptyBusket {
+    font-size: 50px;
+    padding: 30vh 0;
+  }
+  .Busket-cart-price {
+    margin-left: 40px;
+    font-size: 20px;
+  }
+}
+.show .fade .toast {
+  border-radius: none !important;
+}

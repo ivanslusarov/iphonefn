@@ -1,0 +1,36 @@
+.Delivery {
+  background-image: url("./img/ipad.webp");
+  background-size: cover;
+}
+.Delivery-heading {
+  margin: 0;
+  text-align: center;
+  margin: 100px 0;
+  color: #d1e5f6;
+  font-size: 30px;
+  display: inline-block;
+  background-color: rgba(0, 21, 41, 0.4);
+  border-radius: 16px;
+}
+@media screen and (min-width: 800px) {
+  .Delivery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+  }
+  .Delivery-heading {
+    font-size: 40px;
+    display: inline-block;
+    padding: 0 10px;
+  }
+}
+@media screen and (min-width: 1100px) {
+  .Delivery {
+    height: 100vh;
+  }
+  .Delivery-heading {
+    font-size: 50px;
+    padding: 5px 20px;
+  }
+}
